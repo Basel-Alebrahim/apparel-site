@@ -30,8 +30,8 @@ body {
     padding: 6px;
 }
 
-.logo.img-fluid {
-    max-width: 15%;
+.logo {
+    width: 100px;
 }
 
 
