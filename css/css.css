@@ -1,0 +1,68 @@
+        /* 
+Theme Name:
+Theme Coder:
+PSD Designer: 
+
+First coor: 200f0c; //body
+Second color: 461d13; //menu
+Third color: 8a2129; //red
+ForthColor: 151515;//brown
+Fifthecolor: 000000;//black
+facebook: 435f7d;
+*/
+        /* Start Upper Bar */
+        
+        body {
+            background-color: #200f0c
+        }
+        
+        .upper-span {
+            color: #FFF;
+            font-size: 10px;
+        }
+        
+        .upper-icon {
+            background-color: #435f7d;
+            color: #FFF;
+            padding: 6px;
+        }
+        
+        .logo h3,
+        .logo h5 {
+            color: #FFF;
+        }
+        
+        .mid-menu {
+            display: flex;
+            flex-direction: row;
+            align-items: baseline;
+            justify-content: flex-end;
+        }
+        
+        .mid-menu .list {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: flex-end;
+            max-width: 510px;
+        }
+        
+        .breadcrumb {
+            background-color: transparent !important;
+            padding-bottom: 0px!important;
+            margin-bottom: 0px!important;
+            /* display: inline !important; */
+        }
+        
+        .breadcrumb li a {
+            color: #FFF;
+            font-size: 13px;
+        }
+        
+        .breadcrumb-item+.breadcrumb-item::before {
+            display: inline-block;
+            padding-right: .5rem;
+            color: #FFF;
+            content: ">";
+        }
+        /* Start Upper Bar */

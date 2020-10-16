@@ -1,0 +1,404 @@
+    /* 
+Theme Name:
+Theme Coder:
+PSD Designer: 
+
+First coor: 200f0c; //body
+Second color: 461d13; //menu
+Third color: 8a2129; //red
+ForthColor: 151515;//brown
+Fifthecolor: 000000;//black
+facebook: 435f7d;
+footer: #151515;
+*/
+    /* Start Upper Bar */
+    
+    body {
+        background-color: #200f0c
+    }
+    
+    .upper-span {
+        color: #FFF;
+        font-size: 10px;
+    }
+    
+    .upper-icon {
+        background-color: #435f7d;
+        color: #FFF;
+        padding: 6px;
+    }
+    
+    .logo h3,
+    .logo h5 {
+        color: #FFF;
+    }
+    
+    .mid-menu {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: flex-end;
+    }
+    
+    .mid-menu .list {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+        max-width: 510px;
+    }
+    
+    ul.my-breadcrumb {
+        padding: 10px 16px;
+        list-style: none;
+        background-color: transparent;
+        margin-bottom: 0px;
+    }
+    
+    ul.my-breadcrumb li {
+        display: inline;
+        font-size: 13px;
+        margin-top: 0px;
+    }
+    
+    ul.my-breadcrumb li+li:before {
+        padding: 8px;
+        color: #FFF;
+        content: ">\00a0";
+    }
+    
+    ul.my-breadcrumb li a {
+        color: #FFF;
+        text-decoration: none;
+    }
+    
+    ul.my-breadcrumb li a:hover {
+        color: #01447e;
+        text-decoration: underline;
+    }
+    
+    @media (min-width: 576px) {
+        .midbar .mid-menu .row>div {
+            text-align: right !important;
+        }
+    }
+    
+    @media (max-width: 991px) {
+        .midbar .mid-menu .row div ul {
+            padding-left: 0!important;
+        }
+    }
+    /* Start Upper Bar */
+    /* Start Navbar */
+    
+    .navbar.navbar-expand-lg.navbar-light {
+        background-color: #461d13;
+    }
+    
+    .navbar-light .navbar-nav .nav-link {
+        color: #FFF;
+    }
+    
+    @media (min-width: 992px) {
+        .nav-item {
+            border-left: 2px solid white;
+        }
+        .navbar-nav li:last-child {
+            border-right: 2px solid white;
+        }
+    }
+    
+    .navbar-toggler .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+    
+    .navbar-toggler {
+        /* border-color: rgb(244, 66, 149); */
+    }
+    
+    .navbar-toggler:focus {
+        /* outline-color: pink; */
+    }
+    /* End Navbar */
+    /* Start Slider */
+    
+    .slider {
+        background-color: #DDD;
+    }
+    
+    .slider .carousel-inner {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+    
+    .slider .carousel-inner h1 {
+        position: absolute;
+        color: #FFF;
+        z-index: 3;
+        font-size: 70px;
+        max-width: 900px;
+        line-height: 1.5;
+        left: 100px;
+    }
+    
+    .slider .carousel-inner h1 span {
+        background-color: #ec1c23;
+        color: #FFF;
+        /* display: inline-block;
+        padding: 2px 10px; */
+    }
+    
+    .slider .carousel-inner .overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.6);
+        z-index: 2;
+    }
+    
+    .slider .carousel-item {
+        /* -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover; */
+        background-size: cover;
+    }
+    
+    .slider .carousel-one {
+        background-image: url('../img/slider01.jpg');
+    }
+    
+    .slider .carousel-two {
+        background-image: url('../img/slider02.jpg');
+    }
+    
+    .slider .carousel-three {
+        background-image: url('../img/slider03.jpg');
+    }
+    
+    .slider .carousel-indicators li {
+        height: 8px;
+        cursor: pointer;
+    }
+    
+    .carousel-indicators {
+        bottom: -50px;
+    }
+    
+    .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+    }
+    /* End Slider */
+    /* Start Overview */
+    
+    .overview {
+        padding: 65px;
+    }
+    
+    .overview p {
+        line-height: 2;
+        font-size: 20px;
+        width: 80%;
+        margin: 0 auto 60px;
+        color: #FFF;
+    }
+    
+    .overview button {
+        background-color: #ed1d24;
+        color: #FFF;
+        padding: 10px 30px;
+        font-size: 20px;
+        font-weight: bold;
+        border: 1px solid #ed1d24;
+    }
+    /* End Overview */
+    /* Strt Event */
+    
+    .event .event-button {
+        /* padding-left: 15px; */
+    }
+    
+    .event .event-button .btn-one {
+        background-color: #461d13;
+        color: white;
+    }
+    
+    .event .event-button .btn-second {
+        background-color: #3c3c3c;
+        color: white;
+    }
+    
+    .event hr {
+        margin-top: 0rem;
+        background-color: #461d13;
+        height: 1px;
+    }
+    
+    .event .card {
+        background-color: transparent;
+    }
+    
+    .event .card p {
+        color: white;
+    }
+    
+    .event .card .card-body {
+        padding: 0;
+        margin: 10px 0;
+    }
+    
+    .event .card a {
+        background-color: #461d13;
+        min-width: 180px;
+        margin-right: 10px;
+        color: white;
+    }
+    /* End Event */
+    /* Start Restaurant*/
+    
+    .restaurant .card {
+        background-color: #461d13;
+        border: none;
+    }
+    
+    .restaurant .card .card-body {
+        background-color: #461d13;
+        border: none;
+        padding: 0.5rem 0.1rem;
+    }
+    
+    .restaurant .card p {
+        color: #FFF;
+        margin-top: 0;
+        margin-bottom: 0rem;
+        padding-left: 8px;
+    }
+    
+    .restaurant .card i {
+        background-color: #ed1d24;
+        color: #FFF;
+        padding: 6px;
+        width: 29px;
+        line-height: 5px;
+        text-align: center;
+    }
+    
+    .event span:first-child,
+    .restaurant span:first-child {
+        font-weight: bold;
+        color: #c3943d;
+    }
+    
+    .event span:nth-child(2),
+    .restaurant span:nth-child(2) {
+        color: #5a4936;
+    }
+    
+    .event h2,
+    .restaurant h2,
+    .restaurant span:last-child {
+        color: #9b8649;
+    }
+    /* End Restaurant */
+    /* Start Breadcrumb*/
+    
+    .breadcrumb-item+.breadcrumb-item::before {
+        content: ">";
+        color: #695a56;
+    }
+    
+    .breadcrumb {
+        background-color: transparent!important;
+        border-bottom: 1px solid #461d13;
+        border-top: 1px solid #461d13;
+    }
+    
+    .breadcrumb-item a {
+        color: white;
+        padding-left: 15px;
+    }
+    /* End Breadcrumb*/
+    /* Start Meeting*/
+    
+    .meeting .card {
+        background-color: #461d13;
+    }
+    
+    .meeting .card a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .meeting .card .card-body {
+        position: relative;
+    }
+    
+    .meeting .card .card-body div:last-child {
+        position: absolute;
+        right: 1px;
+    }
+    
+    .meeting .card i {
+        background-color: #ed1d24;
+        color: #FFF;
+        padding: 6px;
+        width: 29px;
+        line-height: 5px;
+        text-align: center;
+    }
+    /* End Meeting*/
+    /* Start Footer*/
+    
+    .footer {
+        background-color: #151515;
+    }
+    
+    .footer .card {
+        background-color: transparent;
+        border: none;
+    }
+    
+    .footer .card .card-body {
+        /* background-color: #461d13; */
+        border: none;
+        padding: 0.5rem 0.1rem;
+    }
+    
+    .footer .card .card-title,
+    .footer .card .card-text {
+        color: #FFF;
+        margin-top: 2px;
+        margin-bottom: 0rem;
+        padding-left: 8px;
+    }
+    
+    .footer hr {
+        margin-bottom: 0.3rem;
+        margin-top: 0.5rem;
+        background-color: #fff;
+        height: 1px;
+    }
+    /* End Footer*/
+    /* Start Below Footer*/
+    /* Start Below Footer*/
+    
+    .below-footer {
+        background-color: black;
+        height: 50px;
+    }
+    
+    .below-footer span {
+        color: #FFF;
+        font-size: 20px;
+    }
+    
+    @media (min-width: 768px) {
+        .below-footer .row>div:last-child {
+            text-align: right !important;
+        }
+    }
+    /* End Below Footer*/
